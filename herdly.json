@@ -8,7 +8,7 @@
                 "validation": "required|integer|min:2|max:4"
             },
             "description": "The numdber of storage accounts to deploy..",
-            "displayName": "Number of Accounts"
+            "displayName": "Number of Accounts sd"
         },
         {
             "name": "storageAccountBaseName",
