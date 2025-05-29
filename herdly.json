@@ -1,0 +1,24 @@
+{
+    "parameters": [
+        {
+            "name": "numberOfStorageAccounts",
+            "component": {
+                "type": "herdly.number",
+                "default": 2,
+                "validation": "required|integer|min:2|max:4"
+            },
+            "description": "The numdber of storage accounts to deploy..",
+            "displayName": "Number of Accounts"
+        },
+        {
+            "name": "storageAccountBaseName",
+            "component": {
+                "type": "herdly.string",
+                "default": "sdsd435t22f",
+                "validation": "required|string"
+            },
+            "description": "The base name for the storage accounts.",
+            "displayName": "Storage Account Base Name"
+        }
+    ]
+}
