@@ -7,6 +7,11 @@ resource storageaccount 'Microsoft.Storage/storageAccounts@2021-02-01' = {
   sku: {
     name: 'Standard_ZRS'
   }
+  properties: {
+    supportsHttpsTrafficOnly: true
+    allowBlobPublicAccess: false
+    minimumTlsVersion: 'TLS1_2'
+  }
   tags: {
     Environment: 'prod'
   }
