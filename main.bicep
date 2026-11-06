@@ -7,4 +7,7 @@ resource storageaccount 'Microsoft.Storage/storageAccounts@2021-02-01' = {
   sku: {
     name: 'Premium_LRS'
   }
+  tags: {
+    Environment: 'prod'
+  }
 }
