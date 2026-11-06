@@ -5,7 +5,7 @@ resource storageaccount 'Microsoft.Storage/storageAccounts@2021-02-01' = {
   location: location
   kind: 'StorageV2'
   sku: {
-    name: 'Premium_GRS'
+    name: 'Standard_ZRS'
   }
   tags: {
     Environment: 'prod'
